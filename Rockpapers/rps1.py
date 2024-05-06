@@ -35,9 +35,9 @@ while playagain:
         print("😒this  game got tied my friend")
     else:
         print("🐍computer wins")
-    playagain = input("\nPlay Again? \nY for yes or \nQ to quit \n\n")
+    playagain = input("\n Play Again? \n Y for yes or \n Q to quit \n\n")
     if playagain.lower() == "y":
-        continue
+        continue #its like contininug ur game if u click the yes for it
     else:
         print("\n")
         print("Thank you for playing\n")
