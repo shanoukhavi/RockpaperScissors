@@ -32,7 +32,7 @@ while playagain:
         print("🥳User win")
 
     elif player == computer:
-        print("😒tie game my friend")
+        print("😒this  game got tied my friend")
     else:
         print("🐍computer wins")
     playagain = input("\nPlay Again? \nY for yes or \nQ to quit \n\n")
