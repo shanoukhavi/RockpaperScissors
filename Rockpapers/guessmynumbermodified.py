@@ -66,7 +66,7 @@ def guess(name="PlayerOne"):
             if __name__ == "__main__":
                 sys.exit(f"Bye {name}")
             else:
-                return  # this return is because it should run in my arcade file
+                return  # this return is because it should run in my arcade file otherwise it wont work then
 
     return play_rps
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
         "--name",
         metavar="name",
         required=True,
-        help="the name of the person palying the game ",
+        help="the name of the person playing the game ",
     )
 
     args = parser.parse_args()
