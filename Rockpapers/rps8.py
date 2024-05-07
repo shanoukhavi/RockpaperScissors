@@ -45,10 +45,10 @@ def rps(name="PlayerOne"):
                 return "🥳{name} win"
             elif player == 2 and computer == 1:
                 player_wins += 1
-                return "🥳{name} win"
+                return "🥳{name} wins"
             elif player == 3 and computer == 2:
                 player_wins += 1
-                return "🥳{name} win"
+                return "🥳{name} wins"
 
             elif player == computer:
                 tiecount += 1
