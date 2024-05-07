@@ -41,7 +41,7 @@ def rps():
                 player_wins += 1
                 return "🥳User win"
             elif player == 3 and computer == 2:
-                player_wins += 1
+                player_wins+= 1
                 return "🥳User win"
 
             elif player == computer:
@@ -73,7 +73,7 @@ def rps():
         else:
             print("\n ")
             print("Better luck next time")
-            sys.exit("Bye")
+            sys.exit("Bye next time")
 
     return play_rps
 
