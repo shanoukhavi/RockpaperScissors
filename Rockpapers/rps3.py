@@ -13,7 +13,7 @@ def play_rps():
 
     playerchoice = input("\nenter...\n1 for rock,\n2 for paper,\n3 for scissors:\n\n")
     if playerchoice not in ["1", "2", "3"]:
-        print("you must enter 1 , 2  ,3")
+        print("you must enter 1,2,3")
         return play_rps()
 
     player = int(playerchoice)
@@ -35,7 +35,7 @@ def play_rps():
         elif player == computer:
             return "😒tie game my friend"
         else:
-            return "🐍computer wins"
+            return "🐍computer wins man"
 
     winner = decide_winner(player, computer)
     print(winner)
@@ -55,7 +55,7 @@ def play_rps():
         return play_rps()
     else:
         print("\n ")
-        print("Better luck next time")
+        print("Better luck next time man ")
         sys.exit("Bye")
 
 
