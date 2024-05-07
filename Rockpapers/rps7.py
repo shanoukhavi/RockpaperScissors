@@ -21,7 +21,7 @@ def rps(name="PlayerOne"):
             SCISSORS = 3
 
         playerchoice = input(
-            f"\{name},please enter...\n1 for rock,\n2 for paper,\n3 for scissors:\n\n"
+            f"\{name},please enter...\n1 for rock,\n2 for paper,\n3 for scissors\n\n"
         )
         if playerchoice not in ["1", "2", "3"]:
             print(f"{name},please enter 1 , 2  ,3")
