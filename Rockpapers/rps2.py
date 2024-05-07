@@ -19,8 +19,8 @@ def play_rps():
     computerchoice = random.choice("123")
     computer = int(computerchoice)
 
-    print("your chose " + str(RPS(player)).replace("RPS.", "") + ".")
-    print("Python choise " + str(RPS(computer)).replace("RPS.", "") + ".")
+    print("your choice " + str(RPS(player)).replace("RPS.", "") + ".")
+    print("Python choice " + str(RPS(computer)).replace("RPS.", "") + ".")
 
     if player == 1 and computer == 3:
         print("🥳User win")
@@ -29,7 +29,7 @@ def play_rps():
     elif player == 3 and computer == 2:
         print("🥳User win")
 
-    elif player == computer:
+    elif player === computer:
         print("😒tie game my friend")
     else:
         print("🐍computer wins")
