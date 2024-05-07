@@ -27,8 +27,8 @@ def rps():
         computerchoice = random.choice("123")
         computer = int(computerchoice)
 
-        print(f"\nyour chose {str(RPS(player)).replace('RPS.', '')}  ")
-        print(f"\nPython choise   {str(RPS(computer)).replace('RPS.', '')}  .")
+        print(f"\nyour choice {str(RPS(player)).replace('RPS.', '')}  ")
+        print(f"\nPython choice   {str(RPS(computer)).replace('RPS.', '')}  .")
 
         def decide_winner(player, computer):
             nonlocal player_wins
@@ -73,7 +73,7 @@ def rps():
         else:
             print("\n ")
             print("Better luck next time")
-            sys.exit("Bye")
+            sys.exit("Bye next time")
 
     return play_rps
 
